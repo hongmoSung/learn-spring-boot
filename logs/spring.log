@@ -83,3 +83,110 @@ Consider defining a bean of type 'java.lang.String' in your configuration.
 2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : hongmo-test
 2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : ====================================
 2021-01-03 20:44:59.891  INFO 42331 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:48:49.956  INFO 42378 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42378 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 20:48:49.958 DEBUG 42378 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 20:48:49.958  INFO 42378 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 20:48:51.021  INFO 42378 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-01-03 20:48:51.034  INFO 42378 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 20:48:51.034  INFO 42378 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 20:48:51.115  INFO 42378 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 20:48:51.116  INFO 42378 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2021-01-03 20:48:51.393  INFO 42378 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:48:51.649  INFO 42378 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-01-03 20:48:51.649  INFO 42378 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 20:48:51.661  INFO 42378 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2021-01-03 20:48:51.824  INFO 42378 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62608 (http) with context path ''
+2021-01-03 20:48:51.836  INFO 42378 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 2.389 seconds (JVM running for 3.367)
+2021-01-03 20:48:51.837 DEBUG 42378 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:48:51.837 DEBUG 42378 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 20:48:51.837 DEBUG 42378 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 20:48:51.837 DEBUG 42378 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:48:52.138  INFO 42378 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 20:48:52.138  INFO 42378 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 20:48:52.140  INFO 42378 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-03 20:48:52.257  INFO 42378 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:51:58.674  INFO 42398 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42398 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 20:51:58.675 DEBUG 42398 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 20:51:58.676  INFO 42398 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 20:51:59.905  INFO 42398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-01-03 20:51:59.915  INFO 42398 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 20:51:59.915  INFO 42398 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 20:52:00.031  INFO 42398 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 20:52:00.031  INFO 42398 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1339 ms
+2021-01-03 20:52:00.288  INFO 42398 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:52:00.510  INFO 42398 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-01-03 20:52:00.511  INFO 42398 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 20:52:00.523  INFO 42398 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2021-01-03 20:52:00.597  INFO 42398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62645 (http) with context path ''
+2021-01-03 20:52:00.610  INFO 42398 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 2.395 seconds (JVM running for 3.328)
+2021-01-03 20:52:00.612 DEBUG 42398 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:52:00.612 DEBUG 42398 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 20:52:00.612 DEBUG 42398 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 20:52:00.612 DEBUG 42398 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:52:00.730  INFO 42398 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 20:52:00.730  INFO 42398 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 20:52:00.731  INFO 42398 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 20:52:00.847  INFO 42398 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:58:09.680  INFO 42427 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42427 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 20:58:09.681 DEBUG 42427 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 20:58:09.681  INFO 42427 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 20:58:10.968  INFO 42427 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-01-03 20:58:10.979  INFO 42427 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 20:58:10.980  INFO 42427 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 20:58:11.066  INFO 42427 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 20:58:11.066  INFO 42427 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2021-01-03 20:58:11.428  INFO 42427 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:58:11.736  INFO 42427 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-01-03 20:58:11.736  INFO 42427 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 20:58:11.748  INFO 42427 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2021-01-03 20:58:11.835  INFO 42427 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62728 (http) with context path ''
+2021-01-03 20:58:11.850  INFO 42427 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 2.631 seconds (JVM running for 3.674)
+2021-01-03 20:58:11.852 DEBUG 42427 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:58:11.852 DEBUG 42427 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 20:58:11.853 DEBUG 42427 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 20:58:11.853 DEBUG 42427 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:58:12.567  INFO 42427 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 20:58:12.567  INFO 42427 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 20:58:12.569  INFO 42427 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-03 20:58:14.744  INFO 42427 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:00:41.995  INFO 42454 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42454 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 21:00:41.996 DEBUG 42454 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 21:00:41.996  INFO 42454 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 21:00:43.381  INFO 42454 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-01-03 21:00:43.393  INFO 42454 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 21:00:43.394  INFO 42454 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 21:00:43.469  INFO 42454 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 21:00:43.469  INFO 42454 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1459 ms
+2021-01-03 21:00:43.827  INFO 42454 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:00:44.224  INFO 42454 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-01-03 21:00:44.224  INFO 42454 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 21:00:44.242  INFO 42454 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 18 ms
+2021-01-03 21:00:44.328  INFO 42454 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62754 (http) with context path ''
+2021-01-03 21:00:44.348  INFO 42454 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 2.846 seconds (JVM running for 3.789)
+2021-01-03 21:00:44.349 DEBUG 42454 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:00:44.350 DEBUG 42454 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 21:00:44.350 DEBUG 42454 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 21:00:44.350 DEBUG 42454 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:00:44.474  INFO 42454 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:03:17.565  INFO 42468 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42468 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 21:03:17.566 DEBUG 42468 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 21:03:17.566  INFO 42468 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 21:03:18.938  INFO 42468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-01-03 21:03:18.949  INFO 42468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 21:03:18.949  INFO 42468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 21:03:19.030  INFO 42468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 21:03:19.030  INFO 42468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2021-01-03 21:03:19.383  INFO 42468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:03:19.650  INFO 42468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-01-03 21:03:19.650  INFO 42468 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 21:03:19.661  INFO 42468 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2021-01-03 21:03:19.734  INFO 42468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62775 (http) with context path ''
+2021-01-03 21:03:19.749  INFO 42468 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 2.64 seconds (JVM running for 3.647)
+2021-01-03 21:03:19.751 DEBUG 42468 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:03:19.751 DEBUG 42468 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 21:03:19.751 DEBUG 42468 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 21:03:19.751 DEBUG 42468 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:03:20.271  INFO 42468 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 21:03:20.271  INFO 42468 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 21:03:20.272  INFO 42468 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 21:03:22.416  INFO 42468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
