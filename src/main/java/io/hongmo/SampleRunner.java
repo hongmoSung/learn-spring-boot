@@ -9,14 +9,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class SampleRunner implements ApplicationRunner {
 
-//    @Value("${hongmo.name}")
-//    private String name;
     @Autowired
-    HongmoProperties hongmoProperties;
+    private String hello;
+
+    @Autowired
+    private HongmoProperties hongmoProperties;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("====================================");
+        System.out.println(hello);
         System.out.println(hongmoProperties.getName());
         System.out.println("====================================");
     }
