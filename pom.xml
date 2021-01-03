@@ -6,7 +6,7 @@
 
     <groupId>io.hongmo</groupId>
     <artifactId>learn-spring-boot</artifactId>
-    <version>1.0-SNAPSHOT</version>ㅡ
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
