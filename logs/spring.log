@@ -190,3 +190,65 @@ Consider defining a bean of type 'java.lang.String' in your configuration.
 2021-01-03 21:03:20.271  INFO 42468 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-01-03 21:03:20.272  INFO 42468 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2021-01-03 21:03:22.416  INFO 42468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:14:59.756  INFO 42157 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:15:02.074  INFO 42570 --- [main] io.hongmo.Application                    : Starting Application on hongmoucBookPro with PID 42570 (/Users/hongmosung/mySprings/learn-spring-boot/target/classes started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 21:15:02.076 DEBUG 42570 --- [main] io.hongmo.Application                    : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 21:15:02.076  INFO 42570 --- [main] io.hongmo.Application                    : The following profiles are active: test
+2021-01-03 21:15:02.828  INFO 42570 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 21:15:02.837  INFO 42570 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 21:15:02.837  INFO 42570 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 21:15:02.911  INFO 42570 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 21:15:02.912  INFO 42570 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 803 ms
+2021-01-03 21:15:03.058  INFO 42570 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:15:03.202  INFO 42570 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 21:15:03.210  INFO 42570 --- [main] io.hongmo.Application                    : Started Application in 1.414 seconds (JVM running for 1.891)
+2021-01-03 21:15:03.211 DEBUG 42570 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:15:03.211 DEBUG 42570 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 21:15:03.211 DEBUG 42570 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 21:15:03.211 DEBUG 42570 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:15:38.067  INFO 42570 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 21:15:38.068  INFO 42570 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 21:15:38.073  INFO 42570 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-01-03 21:19:03.821  INFO 42570 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:19:06.200  INFO 42628 --- [restartedMain] io.hongmo.Application                    : Starting Application on hongmoucBookPro with PID 42628 (/Users/hongmosung/mySprings/learn-spring-boot/target/classes started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 21:19:06.201 DEBUG 42628 --- [restartedMain] io.hongmo.Application                    : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 21:19:06.201  INFO 42628 --- [restartedMain] io.hongmo.Application                    : The following profiles are active: test
+2021-01-03 21:19:06.251  INFO 42628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 21:19:06.251  INFO 42628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 21:19:06.959  INFO 42628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 21:19:06.965  INFO 42628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 21:19:06.965  INFO 42628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 21:19:07.010  INFO 42628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 21:19:07.011  INFO 42628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 759 ms
+2021-01-03 21:19:07.142  INFO 42628 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:19:07.247  INFO 42628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 21:19:07.278  INFO 42628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 21:19:07.288  INFO 42628 --- [restartedMain] io.hongmo.Application                    : Started Application in 1.4 seconds (JVM running for 2.067)
+2021-01-03 21:19:07.290 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:19:07.290 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : test hello
+2021-01-03 21:19:07.290 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 21:19:07.290 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:19:22.673  INFO 42628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 21:19:22.673  INFO 42628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 21:19:22.677  INFO 42628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-03 21:19:34.877  INFO 42628 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:19:34.990  INFO 42628 --- [restartedMain] io.hongmo.Application                    : Starting Application on hongmoucBookPro with PID 42628 (/Users/hongmosung/mySprings/learn-spring-boot/target/classes started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 21:19:34.990 DEBUG 42628 --- [restartedMain] io.hongmo.Application                    : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 21:19:34.990  INFO 42628 --- [restartedMain] io.hongmo.Application                    : The following profiles are active: test
+2021-01-03 21:19:35.214  INFO 42628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 21:19:35.214  INFO 42628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 21:19:35.214  INFO 42628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-03 21:19:35.225  INFO 42628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 21:19:35.225  INFO 42628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 233 ms
+2021-01-03 21:19:35.265  INFO 42628 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 21:19:35.293  INFO 42628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 21:19:35.300  INFO 42628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 21:19:35.304  INFO 42628 --- [restartedMain] io.hongmo.Application                    : Started Application in 0.35 seconds (JVM running for 30.082)
+2021-01-03 21:19:35.304 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:19:35.304 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : test hello
+2021-01-03 21:19:35.304 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 21:19:35.304 DEBUG 42628 --- [restartedMain] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 21:19:35.305  INFO 42628 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-03 21:19:36.084  INFO 42628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 21:19:36.084  INFO 42628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 21:19:36.086  INFO 42628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
