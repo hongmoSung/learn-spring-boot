@@ -70,3 +70,16 @@ Consider defining a bean of type 'java.lang.String' in your configuration.
 2021-01-03 20:22:38.364 DEBUG 42157 --- [main] io.hongmo.SampleRunner                   : test hello
 2021-01-03 20:22:38.364 DEBUG 42157 --- [main] io.hongmo.SampleRunner                   : hongmo-test
 2021-01-03 20:22:38.364 DEBUG 42157 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:44:58.220  INFO 42331 --- [main] i.h.controller.SampleControllerTest      : Starting SampleControllerTest on hongmoucBookPro with PID 42331 (started by hongmosung in /Users/hongmosung/mySprings/learn-spring-boot)
+2021-01-03 20:44:58.221 DEBUG 42331 --- [main] i.h.controller.SampleControllerTest      : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-01-03 20:44:58.221  INFO 42331 --- [main] i.h.controller.SampleControllerTest      : The following profiles are active: test
+2021-01-03 20:44:59.245  INFO 42331 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 20:44:59.517  INFO 42331 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-01-03 20:44:59.517  INFO 42331 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-01-03 20:44:59.530  INFO 42331 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
+2021-01-03 20:44:59.549  INFO 42331 --- [main] i.h.controller.SampleControllerTest      : Started SampleControllerTest in 1.896 seconds (JVM running for 3.009)
+2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : test hello
+2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : hongmo-test
+2021-01-03 20:44:59.551 DEBUG 42331 --- [main] io.hongmo.SampleRunner                   : ====================================
+2021-01-03 20:44:59.891  INFO 42331 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
